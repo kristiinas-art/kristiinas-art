@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/blueimp/Gallery/v2.22.0/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Kristiina's Art</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+
+            <!-- Main navigation links-->
+            <ul id="main-navigation" class="nav navbar-nav" role="tablist">
+                <li class="active"><a href="#home" data-toggle="tab">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li><a href="#about-me">About Me</a></li> -->
+            </ul>
+
+            <!-- Social links -->
+            <ul id="social-links" class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="https://www.instagram.com/murulaid/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://kristiinasart.imgur.com" target="_blank">Imgur</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="main">
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+            <div id="links">
+                <a href="images/look_this_way.jpeg" title="Look this way"></a>
+                <a href="images/blowing_bubbles.jpeg" title="Blowing bubbles"></a>
+                <a href="images/items.jpeg" title="Items"></a>
+                <a href="images/sensual.jpeg" title="Sensual"></a>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="about-me">About Me</div>
+    </div>
+</div>
+<script src="https://cdn.rawgit.com/blueimp/Gallery/v2.22.0/js/jquery.blueimp-gallery.min.js"></script>
+<script src="https://cdn.rawgit.com/blueimp/Gallery/v2.22.0/js/blueimp-gallery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
